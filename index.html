@@ -2,26 +2,23 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Rafael's Portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/fontAwesome.css">
-        <link rel="stylesheet" href="css/hero-slider.css">
         <link rel="stylesheet" href="css/templatemo-main.css">
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     
     <body>
 
         <div class="fixed-side-navbar">
             <ul class="nav flex-column">
-                <li class="nav-item"><a class="nav-link" href="#home"><span>Intro</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#home"><span>Home</span></a></li>
                 <li class="nav-item"><a class="nav-link" href="#my-projects"><span>My Projects</span></a></li>
                 <li class="nav-item"><a class="nav-link" href="#education"><span>Education</span></a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact-us"><span>Contact Us</span></a></li>
@@ -78,7 +75,6 @@
 
         <div class="service-content" id="education">
             <div class="container">
-                
                 <div class="row">
                     <div class="col-md-4">
                         <div class="left-text">
@@ -137,33 +133,33 @@
 
         <div class="parallax-content2 contact-content" id="contact-us">
             <div class="container">
-                        <div class="contact-form">
-                            <h1>Talk to Me!</h1>
-                                <form id="contact" action="" method="post">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                        <fieldset>
-                                            <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
-                                        </fieldset>
-                                        </div>
-                                        <div class="col-md-12">
-                                        <fieldset>
-                                            <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
-                                        </fieldset>
-                                        </div>
-                                        <div class="col-md-12">
-                                        <fieldset>
-                                            <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
-                                        </fieldset>
-                                        </div>
-                                        <div class="col-md-12">
-                                        <fieldset>
-                                            <button type="submit" id="form-submit" class="btn">Send Message</button>
-                                        </fieldset>
-                                        </div>
-                                    </div>
-                                </form>
+                <div class="contact-form">
+                    <h1>Talk to Me!</h1>
+                    <form id="contact" action="" method="post">
+                        <div class="row">
+                            <div class="col-md-12">
+                            <fieldset>
+                                <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                            </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                            <fieldset>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                            </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                            <fieldset>
+                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                            </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                            <fieldset>
+                                <button type="submit" id="form-submit" class="btn">Send Message</button>
+                            </fieldset>
+                            </div>
                         </div>
+                    </form>
+                </div>
             </div>
         </div>
 
@@ -187,30 +183,19 @@
             </div>
         </footer>
 
-        <!-- Script section -->
+
+        <!-- tab images change -->
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
         <script src="js/vendor/bootstrap.min.js"></script>
-
-        <script src="js/plugins.js"></script>
 
         <script src="js/main.js"></script>
 
 
-        <script>
-            function openCity(cityName) {
-                var i;
-                var x = document.getElementsByClassName("city");
-                for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-                }
-                document.getElementById(cityName).style.display = "block";  
-            }
-        </script>
+        <!-- Smooth moviment -->
 
+        <script src="js/plugins.js"></script>
 
         <script>
             $(document).ready(function(){
